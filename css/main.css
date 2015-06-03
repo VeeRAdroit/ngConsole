@@ -1,0 +1,113 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{
+margin:0px;
+background-color: silver;
+
+}
+
+
+div#consolePrompt{
+  width:100%;
+  display: block;
+}
+
+span#prompt {
+float:left;
+display: block;
+display: none;
+position: absolute;
+
+}
+input[type="text"]{
+width: 100%;
+ display: block;
+ margin-right: 0px;
+ overflow: hidden;
+  
+}
+input[type="text"], span#prompt, ul.dropdown-menu {
+ background-color: black;
+  color: #00ff33;
+  font-weight: bold;
+ 
+  margin: 0;
+  border-radius: none;
+ 	font-family: 'Lucida Console';
+
+	font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #969696;
+  outline: none;
+}
+ul.dropdown-menu  {
+  
+list-style: none;
+border-bottom: none;
+color: #00ff33;
+padding: 0px;
+
+}
+ul.dropdown-menu > li.active{
+color: black;
+background-color: #00ff33;
+}
+
+ul.dropdown-menu > li{
+padding: 5px;
+ color: #00ff33;
+}
+
+
+div.result{
+  font-family: 'Sans Serif';
+  display: block;
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+  border-bottom: solid 2px silver;
+  background-color: white;
+
+
+}
+
+span.commandPrompt{
+color: blue;
+}
+
+.success{
+  color: green;
+  font-weight: bold;
+}
+
+.error{
+  color: red;
+  font-weight: bold;
+}
+
+.command{
+  font-family: 'Lucida Console';
+  font-weight: bold;
+}
+
+hr{
+  color: silver;
+  margin: 0px;
+}
+
+a:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
